@@ -1,0 +1,7 @@
+:host /deep/{
+  flex:1;
+
+}
+.example-container{
+  height: 100%;
+}
