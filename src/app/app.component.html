@@ -1,3 +1,3 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-header></app-header>
-<app-sidenav></app-sidenav>
+<app-header (toggle)="onToggle()"></app-header>
+<app-sidenav [open]="showSidenav | async"></app-sidenav>
